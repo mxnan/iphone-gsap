@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="h-5/6 w-full flex-center flex-col">
         <p className="hero-title">iPhone 15 Pro</p>
         <div id="video" className="opacity-0 md:w-10/12 w-9/12">
-          <video className="pointer-events-none" autoPlay loop muted playsInline={true} key={videoSrc}>
+          <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
             <source src={videoSrc} type="video/mp4" />
           </video>
         </div>
